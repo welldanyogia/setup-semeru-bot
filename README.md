@@ -12,7 +12,7 @@ Skrip `install_multi.sh` membantu memasang beberapa instance bot Telegram Semeru
    ```bash
    ./install_multi.sh
    ```
-2. **Masukkan URL repositori bot** saat diminta. Skrip akan meng-klon repositori jika belum ada.
+2. **Masukkan URL repositori bot** saat diminta. Untuk bot [booking-semeru](https://github.com/welldanyogia/booking-semeru), gunakan URL tersebut agar mudah disalin. Skrip akan meng-klon repositori jika belum ada.
 3. **Tentukan jumlah bot** yang ingin diinstal.
 4. **Masukkan token Telegram** untuk setiap bot.
 5. Skrip akan membuat lingkungan virtual, memasang dependensi, serta membuat dan mengaktifkan service `systemd` untuk tiap bot.
